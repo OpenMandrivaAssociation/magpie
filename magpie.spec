@@ -1,15 +1,15 @@
 %define upstream_name    App-Magpie
-%define upstream_version 1.113320
+%define upstream_version 2.010
 
 Name:       magpie
-Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Version:    %{upstream_version}
+Release:    1 1
 
 Summary:    MAGeia Perl Integration Easy
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/App/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        http://search.cpan.org/dist/App-Magpie
+Source0:    https://cpan.metacpan.org/authors/id/J/JQ/JQUELIN/App-Magpie-%{upstream_version}.tar.gz
 
 BuildRequires: perl(App::Cmd::Setup)
 BuildRequires: perl(CPAN::Mini)
