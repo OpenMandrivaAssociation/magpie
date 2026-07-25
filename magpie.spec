@@ -3,12 +3,11 @@
 
 Name:       magpie
 Version:    %{upstream_version}
-Release:    1 1
-
+Release:    1
 Summary:    MAGeia Perl Integration Easy
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        http://search.cpan.org/dist/App-Magpie
+Url:        https://github.com/jquelin/app-magpie
 Source0:    https://cpan.metacpan.org/authors/id/J/JQ/JQUELIN/App-Magpie-%{upstream_version}.tar.gz
 
 BuildRequires: perl(App::Cmd::Setup)
